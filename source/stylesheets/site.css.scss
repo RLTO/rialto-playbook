@@ -1,24 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import "markdown.css";
+
 body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
+  color: #152435;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
 }
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
+.container {
+  padding: 40px 0;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
