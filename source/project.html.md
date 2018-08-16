@@ -4,7 +4,7 @@ For managing the Rialto project, we use Trello. The development process is divid
 
 The goal is to feed cards from the other boards into the main and most important board: the **Current Development** board, and its **Next Up** column in specific. This is the column that contains the cards that will be worked on during this sprint.
 
-![boards](images/board_overview.png)
+![boards](/images/board_overview.png)
 
 ## Trello Cards
 A card represents a **single** story to be implemented. It could be a new feature, a refactoring task or a bug.

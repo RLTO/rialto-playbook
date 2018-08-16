@@ -11,6 +11,6 @@ Here you can find more information on planning, development flow etc. within the
 
 ## Topics
 
-- [Project Management](/project)
-- [Development Flow](/development)
-- [Company Values](/values)
+- [Project Management](project)
+- [Development Flow](development)
+- [Company Values](values)
