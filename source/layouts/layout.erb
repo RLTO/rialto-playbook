@@ -9,6 +9,9 @@
   </head>
   <body>
     <div class="container">
+      <% if current_path != "index.html" %>
+        <%= link_to "&laquo; back", "/", relative: true %>
+      <% end %>
       <%= yield %>
     </div>
   </body>
