@@ -52,8 +52,3 @@ configure :build do
   set :relative_assets
   set :http_prefix, "/rialto-playbook"
 end
-
-activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  deploy.build_before  = true
-end
