@@ -73,14 +73,11 @@ The ideas on this board are reviewed once a week during the planning meeting.
 - **Inbox**
   - Non-confirmed reported bugs
 
-
 - **Needs input**
   - There were issues reproducing the issue and the original reporter needs to provide more info. (Don't forget to @mention).
 
-
 - **Accepted**
   - Reported bug is confirmed and will be moved to either Next Up in the Current Development board, or Next Week in the Bug board, depending on how critical.
-
 
 - **Next Week**
   - Bugs to be included in the Next Up in Current Development next week.
