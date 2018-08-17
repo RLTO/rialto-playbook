@@ -13,7 +13,14 @@
       <% if current_path != "index.html" %>
         <%= link_to "&laquo; back", "/", relative: true %>
       <% end %>
+      <h1>Rialto Playbook</h1>
+      <p>Welcome to the Rialto Playbook!</p>
+      <p>Here you can find more information on planning, development flow etc. within the Rialto team.</p>
+
       <%= yield %>
+
+      <h2>Topics</h2>
+      <%= topics %>
     </div>
   </body>
 </html>

@@ -1,3 +1,7 @@
+---
+title: Company Values
+---
+
 # Company values
 
 ## Continuous Improvement

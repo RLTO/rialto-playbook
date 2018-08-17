@@ -1,3 +1,7 @@
+---
+title: Project Planning
+---
+
 # Project Planning
 
 For managing the Rialto project, we use Trello. The development process is divided over 6 boards, each with a specific subject (e.g. bugs, features, refactoring, etc.) within the process.

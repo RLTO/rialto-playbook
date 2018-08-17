@@ -37,11 +37,21 @@ page "/*.txt", layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def topics
+    content_tag(:ul) do
+      item_content = ""
+      sitemap.resources.select { |r| r.path.end_with?(".html") && r.path != "index.html" }.each do |link|
+        item_content << content_tag(:li) do
+          link_content = ""
+          link_content << link_to(link.metadata[:page][:title] || link.path, link.path)
+          link_content.html_safe
+        end
+      end
+      item_content.html_safe
+    end
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
