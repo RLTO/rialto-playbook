@@ -60,5 +60,4 @@ configure :build do
   activate :minify_css
   activate :minify_html
   set :relative_assets
-  set :http_prefix, "/rialto-playbook"
 end
